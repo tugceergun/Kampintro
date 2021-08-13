@@ -25,7 +25,7 @@ namespace Metotlar
             Product[] urunler = new Product[] {urun1,urun2 };
 
             //type-safe -- tip güvenli
-            foreach (var urun in urunler) //var yerine Product yazsan da olur. Aynı şeye geliyor.
+            foreach (var urun in urunler) 
             {
                 Console.WriteLine(urun.Adi);
                 Console.WriteLine(urun.Fiyati);

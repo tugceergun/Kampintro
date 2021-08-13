@@ -39,7 +39,7 @@ namespace ClassIntro
     class Kurs
     {
         //1
-        public string KursAdi { get; set; }  //prop yaz tab tab yap.
+        public string KursAdi { get; set; }  
 
         public string Egitmen { get; set; }
 

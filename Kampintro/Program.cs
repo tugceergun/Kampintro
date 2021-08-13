@@ -27,7 +27,7 @@ namespace Kampintro
                 Console.WriteLine("Değişmedi Butonu");
             }
 
-            if(sistemeGirisYapmisMi==true)  //if i hızlı açmak istersen if yazıp iki kere tab a bas.
+            if(sistemeGirisYapmisMi==true)  
             {
                 Console.WriteLine("Kullanıcı ayarları butonu");
             }

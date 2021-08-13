@@ -33,7 +33,7 @@ namespace Donguler
 
             Console.WriteLine("Sayfa sonu - footer");
 
-            for (int i = 1; i < 10; i+=2)  //'i=i+2' iki iki artır demek. 'i+=2' de aynı şey.
+            for (int i = 1; i < 10; i+=2)  
             {
                 Console.WriteLine(i);
             }
