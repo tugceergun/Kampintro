@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Oop3
 {
@@ -14,6 +15,9 @@ namespace Oop3
 
             ApplicationManager applicationManager = new ApplicationManager();
             applicationManager.Apply(consumerLoanManager);
+
+            List<ICreditManager> credits = new List<ICreditManager>() {consumerLoanManager,autoLoanManager}; //iki kredi de müşteriye uyuyor.
+            applicationManager.CreditPreInfo(credits);
         }
     }
 }
