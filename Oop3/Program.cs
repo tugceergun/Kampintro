@@ -19,6 +19,7 @@ namespace Oop3
             ApplicationManager applicationManager = new ApplicationManager();
             applicationManager.Apply(consumerLoanManager,new List<ILoggerService>(){databeseLoggerServise,fileLoggerService, });
             //hangi kredi çeşidinin olacağını ve hangi loglama servislerinin olacağını seçtik.
+            //loglamada polymorphism(çok biçimlilik) kullandık.
 
             List<ICreditManager> credits = new List<ICreditManager>() {consumerLoanManager,autoLoanManager}; //iki kredi de müşteriye uyuyor.
             applicationManager.CreditPreInfo(credits);
